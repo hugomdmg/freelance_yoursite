@@ -25,7 +25,7 @@ const Introduction = () => {
           </h2>
           <div className="flex justify-center items-center mb-8">
               <a
-                href="https://github.com/hugomdmg/freelance_full_project"
+                href="https://github.com/hugomdmg/freelance_yoursite"
                 target="_blank"
                 className="text-blue-600 hover:text-blue-800 underline mx-4"
               >
