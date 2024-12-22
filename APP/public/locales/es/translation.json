@@ -1,0 +1,97 @@
+{
+  "dashboard": {
+    "welcome": "Bienvenio a YourSite!",
+    "intro": "Consigue la página web que necesitas para tu negocio. Nos especializamos en ofrecer soluciones para pequeñas y medianas empresas.",
+    "explain1": "Ofrecemos rangos de precios adaptados a la complejidad de tu proyecto. Desde páginas básicas hasta soluciones avanzadas.",
+    "explain2": "Al registrarte, puedes consultar directamente con nuestros programadores para definir los detalles de tu proyecto y hacer un seguimiento del desarrollo.",
+    "info": "¿Quieres más información?",
+    "infotext": {
+      "contact": "Contáctanos en ",
+      "or": " o ",
+      "details": " para más detalles.",
+      "link": "regístrate"
+    },
+    "table": {
+      "title": "Nuestros servicios",
+      "columns": {
+        "type": "Tipo de proyecto",
+        "price": "Precio",
+        "description": "Descripción"
+      },
+      "services": {
+        "static": "Pagina estatica",
+        "staticDescription": "Páginas simples, ideales para negocios pequeños sin base de datos.",
+        "simple": "Páginas Simples con Base de Datos",
+        "simpleDescription": "Incluye funcionalidades como formularios de contacto y almacenamiento.",
+        "complex": "Páginas Complejas",
+        "complexDescription": "Funcionalidades avanzadas y bases de datos complejas personalizadas."
+      }
+    }
+  },
+  "projectList": {
+    "title": "Lista de proyectos",
+    "projectName": "Nombre del proyecto",
+    "status": "Estado",
+    "newProject": "Crear proyecto"
+  },
+  "projectDetails": {
+    "productionLink": "Enlace de producción",
+    "nextMeeting": "Próximas reuniones",
+    "pendingPayment": "Pago pendiente",
+    "totalPaid": "Total pagado",
+    "trelloLink": "Enlace de Trello",
+    "makePayment": "Hacer pago"
+  },
+  "chat": {
+    "send": "Enviar",
+    "type": "Escribe tu mensaje...",
+    "noMessage": "Aún no hay mensajes."
+  },
+  "costumersList": {
+    "title": "Lista de Usuarios",
+    "headers": {
+      "email": "Correo Electrónico",
+      "pendingProjects": "Proyectos Pendientes",
+      "totalProjects": "Total de Proyectos"
+    }
+  },
+  "calendar": {
+    "saveMeeting": "Pedir reunión"
+  },
+  "sidebar": {
+    "notifications": "Notificaciones",
+    "noNotifications": "No hay notificaciones"
+  },
+  "introduction": {
+    "title": "Bienvenido a mi Proyecto de Gestión de Clientes y Proyectos Web",
+    "description": "Esta es una página web diseñada para facilitar la colaboración entre clientes y programadores en el desarrollo de proyectos web. La aplicación ofrece funcionalidades específicas dependiendo del tipo de usuario.",
+    "clientFeaturesTitle": "Funciones para Clientes",
+    "clientFeatures": [
+      "Gestión de Proyectos: Administrar proyectos de páginas web, seguir avances y consultar el estado actual.",
+      "Chat Integrado: Comunicación directa con el programador.",
+      "Planificación de Reuniones: Herramienta para coordinar actividades con el programador.",
+      "Seguimiento en Tiempo Real: Consultar actualizaciones sobre el proyecto."
+    ],
+    "programmerFeaturesTitle": "Funciones para Programadores",
+    "programmerFeatures": [
+      "Gestión de Clientes: Administrar una lista de clientes y sus proyectos.",
+      "Chat Integrado: Comunicación fluida con los clientes.",
+      "Notificaciones: Sistema para mantenerse actualizado sobre eventos importantes."
+    ],
+    "technologiesTitle": "Tecnologías Utilizadas",
+    "technologies": [
+      "Frontend: React 18, React Hooks, Tailwind CSS, i18n.",
+      "Backend: Express, MongoDB.",
+      "Herramientas: Nodemon, Docker y Docker Compose."
+    ],
+    "importantInfoTitle": "Información Importante",
+    "importantInfoDescription": "Para probar la aplicación, pueden usar usuarios de prueba. Aquí están los detalles de los usuarios de prueba:",
+    "adminUser": "El usuario de prueba administrador es: usuario: admin, contraseña: password",
+    "clientUser": "El usuario de prueba cliente es: usuario: user@gmail.com, contraseña: password",
+    "createUser": "También pueden crear un usuario cliente si lo desean. Los usuarios de prueba vienen con datos para probar.",
+    "githubLink": "Repositorio de GitHub",
+    "linkedinLink": "Perfil de linkedIn",
+    "showIntroRemind": "-> Puedes acceder a esta información en cualquier momento con el boton en la navBar (se oculta en modo light)",
+    "continueButton": "continuar"
+  }
+}

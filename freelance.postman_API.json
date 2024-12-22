@@ -1,0 +1,343 @@
+{
+	"info": {
+		"_postman_id": "b48301ab-8e7d-489a-b63e-a0bb9aa58757",
+		"name": "freelance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14964438"
+	},
+	"item": [
+		{
+			"name": "chats",
+			"item": [
+				{
+					"name": "get messages",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user1\": \"admin\",\n    \"user2\": \"usuario 3\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/get-messages",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"get-messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send chat",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"emailUser1\": \"admin\",\n    \"emailUser2\": \"usuario 3\",\n    \"message\": \"hola\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/send-message",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"send-message"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "Get all users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{freelanceUrl}}/users",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"hugo\",\n    \"password\": \"seed\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/register",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"admin\",\n    \"password\": \"password1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/login",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"prevEmail\":\"admin\",\n    \"email\":\"admin\",\n    \"password\":\"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/update-account",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"update-account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"usuario 2\",\n    \"password\":\"password2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/delete-account",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"delete-account"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "payment",
+			"item": [
+				{
+					"name": "{{freelanceUrl}}/make-payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"usuario 2\",\n    \"projectId\": \"123\",\n    \"paymentData\": {\n        \"fullName\": \"hugo grado\",\n        \"email\": \"hugomdmg\",\n        \"cardNumber\": \"123456789\",\n        \"expiryDate\": \"20/26\",\n        \"cvv\": \"214\",\n        \"payment\":\"200\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/make-payment",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"make-payment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "projects",
+			"item": [
+				{
+					"name": "create project",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"usuario 3\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/create-project",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"create-project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete project",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"usuario 3\",\n    \"project\":{\n        \"id\": 32232131,\n        \"other data\":\"...\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/delete-project",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"delete-project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update project",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"usuario 3\",\n    \"project\":{\n                \"id\": \"usuario 3-1734863030900-0.11214866614999064\",\n                \"name\": \"new name\",\n                \"status\": \"Finished\",\n                \"link\": \"\",\n                \"dates\": [],\n                \"missingPayment\": 0,\n                \"totalPaid\": 0,\n                \"trelloLink\": \"\"\n            }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/update-project",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"update-project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete notification",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"usuario 3\",\n    \"notificationId\": 1234\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{freelanceUrl}}/delete-notification",
+							"host": [
+								"{{freelanceUrl}}"
+							],
+							"path": [
+								"delete-notification"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "notifications",
+			"item": []
+		}
+	]
+}

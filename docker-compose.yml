@@ -1,0 +1,41 @@
+version: "3.7"
+
+services:
+  api:
+    build: ./API
+    ports:
+      - 3001:3001
+    volumes:
+      - ./API:/API
+      - /API/node_modules
+    depends_on:
+      - mongo
+    container_name: API_freelance
+    networks:
+      - mynetwork
+
+  app:
+    build: ./APP
+    ports:
+      - 3000:3000
+    volumes:
+      - ./APP:/APP
+      - /APP/node_modules
+      - /APP/dist
+    depends_on:
+      - api
+    container_name: APP_freelance
+    networks:
+      - mynetwork
+
+  mongo:
+    image: mongo
+    container_name: mongo_freelance
+    ports:
+      - "27018:27017"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

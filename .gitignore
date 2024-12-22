@@ -1,0 +1,4 @@
+/APP/node_modules
+/API/node_modules
+/API/.env
+/APP/.env

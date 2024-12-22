@@ -1,0 +1,98 @@
+{
+  "dashboard": {
+    "welcome": "Welcome to YourSite!",
+    "intro": "Get the website you need for your business. We specialize in providing solutions for small and medium-sized businesses.",
+    "explain1": "We offer price ranges tailored to the complexity of your project. From basic pages to advanced solutions.",
+    "explain2": "By registering, you can consult directly with our developers to define the details of your project and track its progress.",
+    "info": "Do you want more information?",
+    "infotext": {
+      "contact": "Contact us at ",
+      "or": " or ",
+      "details": " for more details.",
+      "link": "register"
+    },
+    "table": {
+      "title": "Our Services",
+      "columns": {
+        "type": "Type of Project",
+        "price": "Price",
+        "description": "Description"
+      },
+      "services": {
+        "static": "Static Page",
+        "staticDescription": "Simple pages, ideal for small businesses without a database.",
+        "simple": "Simple Pages with Database",
+        "simpleDescription": "Includes features like contact forms and storage.",
+        "complex": "Complex Pages",
+        "complexDescription": "Advanced features and customized complex databases."
+      }
+    }
+  },
+  "projectList": {
+    "title": "Projects list",
+    "projectName": "Project name",
+    "status": "Status",
+    "newProject": "New Project"
+  },
+  "projectDetails": {
+    "productionLink": "Production link",
+    "nextMeeting": "Next meetings",
+    "pendingPayment": "Pending payment",
+    "totalPaid": "Total paid",
+    "trelloLink": "Trello link",
+    "makePayment": "Make payment"
+  },
+  "chat": {
+    "send": "send",
+    "type": "Type your message...",
+    "noMessage": "No messages yet."
+  },
+  "costumersList": {
+    "title": "User List",
+    "headers": {
+      "email": "Email",
+      "pendingProjects": "Pending projects",
+      "totalProjects": "Total projects"
+    }
+  },
+  "calendar": {
+    "saveMeeting": "Request meeting"
+  },
+  "sidebar": {
+    "notifications": "Notifications",
+    "noNotifications": "No notifications"
+  },
+  "introduction": {
+    "title": "Welcome to My Client and Project Management Web Application",
+    "description": "This is a web page designed to facilitate collaboration between clients and developers in the development of web projects. The application offers specific functionalities depending on the type of user.",
+    "clientFeaturesTitle": "Features for Clients",
+    "clientFeatures": [
+      "Project Management: Manage web page projects, track progress, and check the current status.",
+      "Integrated Chat: Direct communication with the developer.",
+      "Meeting Planning: Tool to coordinate activities with the developer.",
+      "Real-time Tracking: View updates on the project."
+    ],
+    "programmerFeaturesTitle": "Features for Programmers",
+    "programmerFeatures": [
+      "Client Management: Manage a list of clients and their projects.",
+      "Integrated Chat: Smooth communication with clients.",
+      "Notifications: A system to stay updated on important events."
+    ],
+    "technologiesTitle": "Technologies Used",
+    "technologies": [
+      "Frontend: React 18, React Hooks, Tailwind CSS, i18n.",
+      "Backend: Express, MongoDB.",
+      "Tools: Nodemon, Docker, and Docker Compose."
+    ],
+    "importantInfoTitle": "Important Information",
+    "importantInfoDescription": "To test the application, you can use the following test users. Here are the test user details:",
+    "adminUser": "The admin test user is: username: admin, password: password",
+    "clientUser": "The client test user is: username: user@gmail.com, password: password",
+    "createUser": "You can also create a client user if you'd like. The test users come with pre-filled data for testing purposes.",
+    "githubLink": "View GitHub Repository",
+    "linkedinLink": "Visit LinkedIn Profile",
+    "showIntroRemind": "-> You can access this information at any time by clicking the button in the navBar (it is hidden in light mode)",
+    "continueButton": "continue"
+
+  }
+}
