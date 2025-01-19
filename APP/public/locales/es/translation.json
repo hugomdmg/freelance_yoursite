@@ -92,6 +92,8 @@
     "githubLink": "Repositorio de GitHub",
     "linkedinLink": "Perfil de linkedIn",
     "showIntroRemind": "-> Puedes acceder a esta información en cualquier momento con el boton en la navBar (se oculta en modo light)",
-    "continueButton": "continuar"
+    "continueButton": "continuar",
+    "portfolio": "-> Si quieres ver mis otros projectos"
+
   }
 }

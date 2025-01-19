@@ -42,7 +42,7 @@ const NavBar = () => {
                         YourSite
                     </a>
                     <button
-                        className="px-1 py-1 m-0.5 bg-transparent dark:text-gray-300 text-[#3c6e71] border-2 border-[#3c6e71] rounded-lg hover:bg-green-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-[#204051] transition-all duration-300"
+                        className="px-1 py-1 m-0.5 bg-[#4a7b7e] dark:text-gray-300 text-[#3c6e71] border-2 border-[#3c6e71] rounded-lg hover:bg-green-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-[#204051] transition-all duration-300"
                         onClick={() => {
                             localStorage.removeItem("hasSeenIntroduction");
                             setIsVisible(true);

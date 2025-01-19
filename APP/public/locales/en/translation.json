@@ -92,7 +92,8 @@
     "githubLink": "View GitHub Repository",
     "linkedinLink": "Visit LinkedIn Profile",
     "showIntroRemind": "-> You can access this information at any time by clicking the button in the navBar (it is hidden in light mode)",
-    "continueButton": "continue"
+    "continueButton": "continue",
+    "portfolio": "-> If you want to check  out more of my projects"
 
   }
 }

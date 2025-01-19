@@ -24,21 +24,28 @@ const Introduction = () => {
             {t("introduction.title")}
           </h2>
           <div className="flex justify-center items-center mb-8">
-              <a
-                href="https://github.com/hugomdmg/freelance_yoursite"
-                target="_blank"
-                className="text-blue-600 hover:text-blue-800 underline mx-4"
-              >
-                {t("introduction.githubLink")}
-              </a>
-              <a
-                href="https://www.linkedin.com/in/hugo-munoz-de-morales-grado/"
-                target="_blank"
-                className="text-blue-600 hover:text-blue-800 underline mx-4"
-              >
-                {t("introduction.linkedinLink")}
-              </a>
-            </div>
+            <a
+              href="https://github.com/hugomdmg/freelance_yoursite"
+              target="_blank"
+              className="text-blue-600 hover:text-blue-800 underline mx-4"
+            >
+              {t("introduction.githubLink")}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hugo-munoz-de-morales-grado/"
+              target="_blank"
+              className="text-blue-600 hover:text-blue-800 underline mx-4"
+            >
+              {t("introduction.linkedinLink")}
+            </a>
+            <a
+              href="https://portfolio-one-blue-25.vercel.app/"
+              target="_blank"
+              className="text-blue-600 hover:text-blue-800 underline mx-4"
+            >
+              {t("introduction.portfolio")}
+            </a>
+          </div>
 
           <div className="text-lg text-gray-700 dark:text-gray-300 mb-8">
             <p className="mb-4">{t("introduction.description")}</p>
